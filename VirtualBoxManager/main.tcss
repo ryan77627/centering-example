@@ -1,0 +1,28 @@
+LoadingModal {
+    align: center middle;
+}
+
+LoadingModal > Container {
+    width: auto;
+    height: auto;
+    border: thick $background 80%;
+    background: $surface;
+    border: red;
+    align-horizontal: center;
+}
+
+LoadingModal > Container > Label {
+    margin: 1;
+    border: red;
+}
+
+LoadingModal > Container > Rule {
+    margin: 1;
+    border: red;
+}
+
+LoadingModal > Container > LoadingIndicator {
+    height: auto;
+    width: auto;
+    border: red;
+}
