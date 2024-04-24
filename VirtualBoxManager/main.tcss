@@ -21,7 +21,7 @@ LoadingModal > Container > Rule {
     border: red;
 }
 
-LoadingModal > Container > LoadingIndicator {
+#load_indicator {
     height: auto;
     width: auto;
     border: red;

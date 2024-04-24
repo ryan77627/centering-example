@@ -14,7 +14,7 @@ class LoadingModal(ModalScreen):
             yield Label("Welcome! Please Wait...")
             yield Rule()
             with Center():
-                yield LoadingIndicator()
+                yield LoadingIndicator(id="load_indicator")
 
     def key_q(self) -> None:
         """Close Modal"""
